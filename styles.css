@@ -2,6 +2,13 @@
 /* Your CSS Code here. */
 .holder{
 	display:flex;
-	justify-content:space-evenly;
 	flex-wrap:wrap;
+
+	
+	justify-content:space-evenly;
+}
+.holder .item{
+	flex:1 1 200px;
+	max-width:300px;
+	box-sizing:border-box;
 }
