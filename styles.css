@@ -2,10 +2,8 @@
 /* Your CSS Code here. */
 .holder{
 	display:flex;
-	flex-wrap:wrap;
-
-	
-	justify-content:space-evenly;
+	flex-wrap:wrap !important;
+	justify-content:space-evenly !important;
 }
 .holder .item{
 	flex:1 1 200px;
